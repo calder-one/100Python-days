@@ -3,7 +3,7 @@ first = input('You are alone in a forest and find some food. You see some berrie
 if first == "berries":
     second = input("You have come to a small cabin with a canoe near the river. Type 'canoe' or 'stay' to continue\n").lower()
     if second == "canoe":
-        third = input("Great. You escaped the wild fire. You made it down river and got to a town. You found a church with tree doors.Pick 'red', 'blue', or 'black' door \n").lower()
+        third = input("Great. You escaped the wild fire. You made it down river and got to a town. You found a church with tree doors. Pick 'red', 'blue', or 'black' door \n").lower()
         if third == "black":
             print("You have made it. Your treasure awaits behind this door.")
         elif third == "red" or third == "blue":
