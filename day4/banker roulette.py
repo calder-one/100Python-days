@@ -12,4 +12,4 @@ names = names_string.split(", ")
 nums = len(names)
 random_choice = random.randint(0, nums - 1)
 payer = names[random_choice]
-print(payer + " Will pay for the bill tonight!.")
+print(payer + " will pay for the bill tonight!.")
