@@ -13,9 +13,8 @@ col = int(position[0])
 row = int(position[1])
 
 mark_row = map[row - 1] 
-mark_row[col - 1] = "X" # Final Mark within row or list number
+mark_row[col - 1] = "X" # Final mark for column within row/list
 
-# 🚨 Don't change the code below 👇
 print(f"{row1}\n{row2}\n{row3}")
 
 # ['X', '2', '3']
