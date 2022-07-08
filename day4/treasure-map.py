@@ -14,3 +14,10 @@ row = int(position[1])
 
 mark_row = map[row - 1] 
 mark_row[col - 1] = "X" # Final Mark within row or list number
+
+# 🚨 Don't change the code below 👇
+print(f"{row1}\n{row2}\n{row3}")
+
+# ['X', '2', '3']
+# ['4', '5', '6']
+# ['7', '8', '9']
