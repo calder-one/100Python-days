@@ -41,7 +41,7 @@ if user_choice.isnumeric() is True:
         computer_choice = random.randint(0, 2)
         print(f"Computer chose: {computer_choice}\n")
         print(f"{images[computer_choice]}")
-        if user_choice == computer_choice:
+        if user_choice_int == computer_choice:
             print("It's a draw")
         elif user_choice_int == 1 and computer_choice == 0:
             print("You win!")
@@ -52,4 +52,4 @@ if user_choice.isnumeric() is True:
         else:
             print("You lose!")
 else:
-    print("Not the right input. Go away")
+    print
