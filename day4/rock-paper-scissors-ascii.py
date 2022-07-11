@@ -52,4 +52,4 @@ if user_choice.isnumeric() is True:
         else:
             print("You lose!")
 else:
-    print
+    print("Invalid data type. Get outta here")
